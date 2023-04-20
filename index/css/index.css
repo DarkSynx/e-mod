@@ -1,0 +1,117 @@
+/* CSS épuré */
+
+body {
+    font-family: 'Segoe UI', sans-serif, 'Noto Color Emoji';
+    background: 0 0;
+    color: #fff;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, :after, :before {
+    box-sizing: inherit;
+}
+
+p#loadingp {
+    background: linear-gradient(to right, #4CAF50 0%, #fff 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: #fff;
+}
+
+#msgload {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    z-index: 99;
+    position: relative;
+    height: 100%;
+    backdrop-filter:blur(10px);
+}
+
+#ctrlframe {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 30px;
+    bottom: 0;
+}
+
+#application {
+    position: absolute;
+    left: 0;
+    width: 48px;
+    top: 0;
+    bottom: 0;
+    background: 0 0;
+    color: #fff;
+    background-color: rgba(54, 58, 75, 0.44);
+    border-right: 1px solid #A9A9A950;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: stretch;
+    align-items: center;
+}
+
+#frame {
+    position: absolute;
+    border-top: 1px solid #A9A9A950;
+    left: 48px;
+    width: calc(100% - 48px);
+    top: 0;
+    bottom: 0;
+    background: 0 0;
+    color: #fff;
+    background-image: linear-gradient(to right top, #2f324170, #414f6270, #516e8270, #618fa170, #74b1be70);
+}
+
+.boutonApp {
+    margin-top: 5px;
+    width: 44px;
+    height: 44px;
+    background-color: transparent;
+
+    border: 1px solid grey;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: stretch;
+    align-items: center;
+
+    background-image: linear-gradient(to right top, #757731a0, #377f37a0, #316772a0, #633771a0, #33b3b3a0);
+
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.boutonApp span {
+    display: inline-block;
+    height: 42px;
+    width: 42px;
+    background-repeat: no-repeat;
+    background-size: 36px 36px;
+    background-position: center;
+}
+
+.boutonApp span:hover {
+    filter: invert(100%);
+}
+
+.webviewframe {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border: 0;
+}

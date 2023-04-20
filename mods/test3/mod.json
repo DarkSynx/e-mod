@@ -1,0 +1,11 @@
+{
+  "module": "mods",
+  "folder": "test3",
+  "link": "https://github.com/w3c/webappsec-trusted-types",
+  "name": "test3",
+  "suffix": "tst",
+  "script": "test.js",
+  "icon": "icon.png",
+  "bgcolor": "transparent",
+  "version": "1.0a"
+}

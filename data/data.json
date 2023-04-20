@@ -1,0 +1,91 @@
+{
+	"licencedialogue": {
+		"type": "question",
+		"buttons": [
+			"Cancel",
+			"Oui, je valide c'est une utilisation personnel et non commercial",
+			"Non, je suis en entreprise j'ai pas le droit"
+		],
+		"defaultId": 2,
+		"title": "Licence d'utilisation",
+		"message": "Qui peut utiliser cette application ?",
+		"detail": "Bienvenue dans notre application !\n\n Nous tenons à vous informer que cette application est destinée à une utilisation non commerciale. Si vous souhaitez obtenir une version utilisable dans votre entreprise, nous vous invitons à nous contacter à l'adresse e-mail suivante :\n\n {email} \n\n Nous vous enverrons une version \"Entreprise\" adaptée à vos besoins.\n\n Nous sommes fiers de vous offrir cette application gratuitement, mais si vous le souhaitez, vous pouvez faire un don pour soutenir l'ensemble du travail effectué.\n\n Nous espérons que vous apprécierez l'expérience de notre application et n'hésitez pas à nous contacter si vous avez des questions ou des commentaires.\n\n Merci de votre confiance et de votre soutien !",
+		"checkboxLabel": "ne plus afficher cette fenetre au démarrage",
+		"checkboxChecked": false
+	},
+	"MicaBrowserWindow" : 
+	{
+		"width": 1280,
+		"height": 740,
+		"center": true,
+		"title": "",
+		"resizable": true,
+		"frame": false,
+		"backgroundColor": "#333333",
+		"autoHideMenuBar": false,
+		"titleBarOverlay": false,
+		"titleBarStyle": "hidden",
+		"show": false,
+		"transparent": false,
+		"webPreferences": {
+			"preload": "",
+			"webviewTag": true,
+			"nodeIntegration": true,
+			"spellcheck": true,
+			"enableRemoteModule": true,
+			"contextIsolation": false
+		},
+		"icon": ""
+	},
+	"contextmenu" : [{
+		"label": "Copy",
+		"accelerator": "CmdOrCtrl+C",
+		"role": "copy"
+	},
+	{
+		"label": "Paste",
+		"accelerator": "CmdOrCtrl+V",
+		"role": "paste"
+	},
+	{
+		"type": "separator"
+	},
+	{
+		"label": "Edit",
+		"submenu": [{
+				"label": "Undo",
+				"accelerator": "CmdOrCtrl+Z",
+				"role": "undo"
+			},
+			{
+				"label": "Redo",
+				"accelerator": "Shift+CmdOrCtrl+Z",
+				"role": "redo"
+			},
+			{
+				"type": "separator"
+			},
+			{
+				"label": "Cut",
+				"accelerator": "CmdOrCtrl+X",
+				"role": "cut"
+			},
+			{
+				"label": "Copy",
+				"accelerator": "CmdOrCtrl+C",
+				"role": "copy"
+			},
+			{
+				"label": "Paste",
+				"accelerator": "CmdOrCtrl+V",
+				"role": "paste"
+			},
+			{
+				"label": "Select All",
+				"accelerator": "CmdOrCtrl+A",
+				"role": "selectAll"
+			}
+		]
+	}
+]
+}
