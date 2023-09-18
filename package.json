@@ -11,7 +11,7 @@
   "private": true,
   "dependencies": {
     "custom-electron-titlebar": "^4.1.6",
-    "electron": "^24.1.2",
+    "electron": "^24.8.3",
     "jaro-winkler": "^0.2.8",
     "lzma-native": "^8.0.6",
     "mica-electron": "^1.3.2"
